@@ -2,6 +2,8 @@
 
 The weekly fantasy football newspaper for the **High Expectations** Sleeper league.
 
+🌐 **Live site:** https://high-expectations-ff.pages.dev
+
 A static site — no build step, no backend. Served as-is.
 
 ## Files
