@@ -47,7 +47,7 @@
     .match.motw{border-top-color:var(--lime);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--lime) 38%,transparent)}
     .teamscore{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:6px 0}.teamscore+.teamscore{border-top:1px solid var(--rule)}
     .team-lockup{display:flex;align-items:center;gap:9px;min-width:0}.team-avatar{width:30px;height:30px;flex:0 0 30px;border-radius:50%;object-fit:cover;background:var(--panel-2);border:1px solid var(--rule)}.team-avatar.default{display:grid;place-items:center;font-size:.58rem;letter-spacing:.04em;font-weight:800;color:var(--muted)}
-    .teamname{font-weight:800;overflow-wrap:anywhere}.record{color:var(--muted);font-size:.75rem;font-weight:600;margin-left:5px}.points{font-variant-numeric:tabular-nums;font-weight:800}
+    .teamname{font-weight:800;overflow-wrap:anywhere}.result-marker{display:inline-block;margin-left:4px;font-size:.86em;line-height:1;vertical-align:.08em}.record{color:var(--muted);font-size:.75rem;font-weight:600;margin-left:5px}.points{font-variant-numeric:tabular-nums;font-weight:800}
     .matchnote{font-size:.76rem;color:var(--muted);margin-top:9px;font-weight:600}.kicker{display:inline-block;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:var(--red);margin-bottom:5px}
     .match-team{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 0}.match-team+.match-team{border-top:1px solid var(--rule)}.match-team .record{font-size:.82rem;white-space:nowrap}.match-summary{border-top:1px solid var(--rule);margin-top:4px;padding-top:12px}.match-summary p{margin:0;color:var(--muted);font-size:.76rem}
     .context-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
