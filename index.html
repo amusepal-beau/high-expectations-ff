@@ -18,7 +18,7 @@
       <div class="mastcopy">
         <div class="issue" id="mastIssue">High Expectations · 2026 season</div>
         <h1 id="mastTitle">The top is separating. The middle is chaos.</h1>
-        <div class="datebar"><span class="live-dot"></span><span id="mastDate">Current edition</span><span>·</span><span id="mastStatus">Live after Thursday night</span></div>
+        <div class="datebar" id="mastInfo" style="display:none"><span class="live-dot"></span><span id="mastDate">Current edition</span><span id="mastDot" style="display:none">·</span><span id="mastStatus" style="display:none"></span></div>
       </div>
     </header>
 
@@ -32,7 +32,8 @@
           <select id="weekSelect" aria-label="Choose a week">
             <option value="1">Week 1</option>
             <option value="2">Week 2</option>
-            <option value="3" selected>Week 3 · Current</option>
+            <option value="3">Week 3</option>
+            <option value="4" selected>Week 4 · Current</option>
           </select>
         </label>
         <div class="archive-tabs" id="editionTabs" role="tablist" aria-label="Choose preview or review">
